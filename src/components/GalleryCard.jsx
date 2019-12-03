@@ -2,7 +2,7 @@ import React from 'react'
 
 function GalleryCard(props) {
     return (
-        <div>
+        <div className="portfolioBody">
             hello {props.name}
         </div>
     )

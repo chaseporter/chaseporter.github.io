@@ -3,8 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.7.1",
     "core-js-compat": "^3.4.7",
     "infrastructure-components": "^0.3.2",
+    "material-ui": "^0.20.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-router-dom": "^5.1.2",
