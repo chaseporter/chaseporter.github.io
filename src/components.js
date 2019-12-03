@@ -7,7 +7,7 @@ const Homepage = () => {
 const About = () => {
     return (
         <div className="portfolioBody">
-            "This page will give a little summary about myself."
+            This page will give a little summary about myself.
         </div>
     )
 }
@@ -15,7 +15,7 @@ const About = () => {
 const Resume = () => {
     return (
         <div className="portfolioBody">
-            "This page should display my resume"
+            This page should display my resume
         </div>
     )
 }

@@ -4,11 +4,14 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.7.1",
+    "@material-ui/icons": "^4.5.1",
+    "@react-pdf/renderer": "^1.6.8",
     "core-js-compat": "^3.4.7",
     "infrastructure-components": "^0.3.2",
     "material-ui": "^0.20.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-pdf": "^4.1.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0"
   },
