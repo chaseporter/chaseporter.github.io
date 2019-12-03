@@ -1,19 +1,21 @@
-import React from 'react'
-import './App.css'
-import TitleBar from './components/TitleBar'
-import GalleryCard from './components/GalleryCard'
+import React from "react";
+import { Route, Switch } from "react-router-dom"
+import "./App.css"
+import TitleBar from "./components/TitleBar"
+import { About, Resume, NotFound, Homepage } from "./components"
 
 function App() {
-  return (
+    return (
     <div className="background">
-      <div className="topBar">
         <TitleBar />
-      </div>
-      <div className="galleryContainer">
-        <GalleryCard name="Chase" />
-      </div>
+        <Switch >
+            <Route exact path="/" component={Homepage} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/resume" component={Resume} />
+            <Route component={NotFound} />
+        </Switch>
     </div>
-  );
+    )
 }
 
-export default App;
+export default App
