@@ -1,12 +1,13 @@
-import React from 'react'
-import { NavLink } from "react-router-dom"
-import { Instagram, LinkedIn, GitHub } from '@material-ui/icons'
+import React from 'react';
+import { NavLink } from "react-router-dom";
+import { Instagram, LinkedIn, GitHub } from '@material-ui/icons';
 
 function TitleBar(props) { 
     return (
         <div className="topBar">
             <NavLink exact to="/" className="menuItem" activeClassName="activeMenuItem">art</NavLink>
             <NavLink to="/about" className="menuItem" activeClassName="activeMenuItem">about me</NavLink>
+            <NavLink to="/recent_reads" className="menuItem" activeClassName="activeMenuItem">recent reads</NavLink>
             <a className="menuItem" rel="noopener noreferrer" href={process.env.PUBLIC_URL + "/ChasePorterResume.pdf"} target="_blank">resume</a>
             <a className="iconMenuItem" rel="noopener noreferrer" href="https://www.instagram.com/chaseporter15" target="_blank">{<Instagram />}</a>
             <a className="iconMenuItem" rel="noopener noreferrer" href="https://www.linkedin.com/in/cporter15" target="_blank">{<LinkedIn />}</a>
@@ -15,4 +16,4 @@ function TitleBar(props) {
     )
 }
 
-export default TitleBar
+export default TitleBar;
