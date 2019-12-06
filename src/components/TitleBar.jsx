@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from "react-router-dom";
 import { Instagram, LinkedIn, GitHub } from '@material-ui/icons';
 
-function TitleBar(props) { 
+function TitleBar() { 
     return (
         <div className="topBar">
             <NavLink exact to="/" className="menuItem" activeClassName="activeMenuItem">about me</NavLink>

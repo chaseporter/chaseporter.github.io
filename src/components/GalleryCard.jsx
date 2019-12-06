@@ -2,17 +2,9 @@ import React from 'react';
 import { Card, Typography, CardContent } from '@material-ui/core';
 import LeftArrow from '@material-ui/icons/ChevronLeft';
 import RightArrow from '@material-ui/icons/ChevronRight';
+import galleryImages from "../Util.js"
 
 const images = require.context("../images/", true)
-const galleryImages = [
-    {src: "./example.jpg", description: ""},
-    {src: "./flowers.jpg", description: ""},
-    {src: "./contour_flowers.jpg", description: ""},
-    {src: "./wooden_flowers.jpg", description: ""},
-    {src: "./blackberries.jpg", description: ""},
-    {src: "./bike.jpg", description:""},
-    {src: "./stars.jpg", description: ""},
-]
 
 class GalleryCard extends React.Component {
     constructor(props) {

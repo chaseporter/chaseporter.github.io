@@ -8,6 +8,7 @@ import About from "./components/About"
 
 function App() {
     return (
+    <div>
     <div className="background">
         <TitleBar />
         <Switch >
@@ -17,6 +18,9 @@ function App() {
             <Route component={NotFound} />
         </Switch>
     </div>
+    <div className="background" style={{backgroundColor: "#eeeeee"}}/>
+    <div className="background"/>
+</div>
     )
 }
 
