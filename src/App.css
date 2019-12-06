@@ -20,9 +20,34 @@
 .galleryCard {
   justify-content: center;
   align-items: center;
-  padding: 3em;
+  height: 75vh;
+  width: 60vw;
 }
 
+.galleryContainer {
+  background-color: #eeeeee;
+  width: 80vw;
+  color: black;
+}
+
+.galleryImage {
+  object-fit: contain;
+  background-size: contain;
+  height:65vh;
+  margin-top: 8px;
+}
+
+.aboutCard {
+  height: 75vh;
+  width: 60vw;
+}
+
+.aboutImage {
+  object-fit: contain;
+  background-size: contain;
+  height:65vh;
+  margin-top: 8px;
+}
 .topBar {
   display: flex;
   background-color: #eeeeee;
@@ -68,17 +93,6 @@
 .iconMenuItem:hover {
   color: black;
   cursor: pointer;
-}
-
-.galleryContainer {
-  background-color: #eeeeee;
-  width: 80vw;
-  color: black;
-}
-
-.galleryImage {
-  height:42px;
-  width:42px;
 }
 
 .background {

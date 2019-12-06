@@ -1,13 +1,17 @@
 import React from 'react';
-import { Card, Typography, CardMedia, CardContent } from '@material-ui/core';
+import { Card, Typography, CardContent } from '@material-ui/core';
 import LeftArrow from '@material-ui/icons/ChevronLeft';
 import RightArrow from '@material-ui/icons/ChevronRight';
 
 const images = require.context("../images/", true)
 const galleryImages = [
     {src: "./example.jpg", description: ""},
-    {src: "./bike.jpg", description:""},
+    {src: "./flowers.jpg", description: ""},
+    {src: "./contour_flowers.jpg", description: ""},
+    {src: "./wooden_flowers.jpg", description: ""},
     {src: "./blackberries.jpg", description: ""},
+    {src: "./bike.jpg", description:""},
+    {src: "./stars.jpg", description: ""},
 ]
 
 class GalleryCard extends React.Component {
@@ -40,16 +44,15 @@ class GalleryCard extends React.Component {
                 <LeftArrow className="arrow" onClick={this.prevImage}/>
                 <div className="galleryCard">
                     <Card>
-                        <CardMedia 
+                        <img className="galleryImage" src={images(galleryImages[this.state.index].src)} alt=""/>
+                        {/* <CardMedia 
                             image={images(galleryImages[this.state.index].src)}
                             className="galleryImage"
                             title="art example"
-                        />
-                        {/* <img src={require("../images/example.jpg")} height="42" width="42" alt=""/> */}
+                        /> */}
                         <CardContent>
                             <Typography component="p">
-                                On this card I will give a description of the work.
-                                {this.state.index}
+                                {galleryImages[this.state.index].description}
                             </Typography>
                         </CardContent>
                     </Card>
