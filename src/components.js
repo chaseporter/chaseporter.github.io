@@ -30,7 +30,7 @@ const RecentReads = () => {
                     - <i>Globalization and Its Discontents</i> by Joseph Stiglitz
                     - <i>Hopes and Prospects</i> by Noam Chomsky
                     - <i>Americanah</i> by Chimamanda Ngozi Adichie
-                    - <i>Selected Poems</i> by Langston Hughs 
+                    - <i>Selected Poems</i> by Langston Hughes 
                     - <i>The Things We Don't Do</i> by Andres Neuman
                     - <i>The Road</i> by Cormac McCarthy
                     - <i>Women of Crisis: Lives of Struggle and Hope</i> by Robert Coles

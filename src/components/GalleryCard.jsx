@@ -14,6 +14,19 @@ class GalleryCard extends React.Component {
         }
         this.nextImage = this.nextImage.bind(this)
         this.prevImage = this.prevImage.bind(this)
+        this.arrowPress = this.arrowPress.bind(this)
+    }
+
+    arrowPress(e) {
+        if (e.keyCode === 37) this.prevImage()
+        if (e.keyCode === 39) this.nextImage()
+    }
+    
+    componentDidMount() {
+        window.addEventListener("keydown", this.arrowPress)
+    }
+    componentWillUnmount() {
+        window.removeEventListener("keydown", this.arrowPress)
     }
 
     nextImage() {
