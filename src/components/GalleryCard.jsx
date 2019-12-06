@@ -37,11 +37,6 @@ class GalleryCard extends React.Component {
                 <div className="galleryCard">
                     <Card>
                         <img className="galleryImage" src={images(galleryImages[this.state.index].src)} alt=""/>
-                        {/* <CardMedia 
-                            image={images(galleryImages[this.state.index].src)}
-                            className="galleryImage"
-                            title="art example"
-                        /> */}
                         <CardContent>
                             <Typography component="p">
                                 {galleryImages[this.state.index].description}
