@@ -25,7 +25,7 @@ const RecentReads = () => {
                     - <i>Pachinko</i> by Min Jin Lee
                     - <i>The Color of Law</i> by Richard Rothstein
                     - <i>Another Country</i> and <i>Notes of a Native Son</i> by James Baldwin
-                    - <i>We Were 8 Years in Power</i> by Ta-Nehisi Coates
+                    - <i>We Were Eight Years in Power</i> by Ta-Nehisi Coates
                     - <i>Showa: A History of Japan</i> by Shigeru Mizuki
                     - <i>Globalization and Its Discontents</i> by Joseph Stiglitz
                     - <i>Hopes and Prospects</i> by Noam Chomsky

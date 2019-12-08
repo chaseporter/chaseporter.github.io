@@ -5,7 +5,7 @@ import { Instagram, LinkedIn, GitHub } from '@material-ui/icons';
 function TitleBar() { 
     return (
         <div className="topBar">
-            <NavLink exact to="/" className="menuItem" activeClassName="activeMenuItem">about me</NavLink>
+            <NavLink exact to="/" className="menuItem" activeClassName="activeMenuItem">chase porter</NavLink>
             <NavLink to="/art" className="menuItem" activeClassName="activeMenuItem">art</NavLink>
             <NavLink to="/recent_reads" className="menuItem" activeClassName="activeMenuItem">recent reads</NavLink>
             <a className="menuItem" rel="noopener noreferrer" href={process.env.PUBLIC_URL + "/ChasePorterResume.pdf"} target="_blank">resume</a>
